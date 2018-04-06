@@ -28,6 +28,13 @@ File { backup => false }
 #     class { 'ntp': }
 #}
 
+node 'ahikoff2.mylabserver.com' {
+  notify { 'test-message-for-ahikoff2':
+    message => 'this is ahikoff2 using a node def',
+  } 
+}
+
+
 node 'ahikoff4.mylabserver'  {
   notify { 'This matches name': }
 #  include ntp
