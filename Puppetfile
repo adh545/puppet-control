@@ -39,3 +39,7 @@ mod 'profile',
   :git => 'https://github.com/adh545/puppet-profile.git',
   :ref => 'master'
 
+mod 'nginx',
+  :git => 'https://github.com/adh545/puppet-nginx.git',
+  :ref => 'master'
+

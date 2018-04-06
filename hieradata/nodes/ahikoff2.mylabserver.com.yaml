@@ -1,0 +1,9 @@
+---
+profile::nginx::vhosts:
+ - 'fqdn': 'ahikoff2.mylabserver.com'
+   'port': 80
+   'server_aliases': ''
+ - 'fqdn': 'ahikoff2b.mylabserver.com'
+   'port': 80
+   'server_aliases': 'ahikoff2b1.mylabserver.com'
+
