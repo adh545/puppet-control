@@ -33,9 +33,9 @@ node 'ahikoff4.mylabserver'  {
 #  include ntp
 }
 
-node /^ahikoff3/ {
-  notify { "This is a node definition using regex!!!": }
-}
+#node /^ahikoff4/ {
+#  notify { "This is a node definition using regex!!!": }
+#}
 
 node 'ahikoff1.mylabserver.com' {
   include pe_repo::platform::el_6_x86_64
