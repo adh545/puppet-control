@@ -6,4 +6,5 @@ profile::nginx::vhosts:
  - 'fqdn': 'ahikoff2b.mylabserver.com'
    'port': 80
    'server_aliases': 'ahikoff2b1.mylabserver.com'
-
+classes:
+ - profile::nginx
