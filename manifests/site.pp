@@ -29,7 +29,7 @@ File { backup => false }
 #}
 
 node 'ahikoff4.mylabserver'  {
-  notify { 'This matches the node name': }
+  notify { 'This matches name': }
 #  include ntp
 }
 
